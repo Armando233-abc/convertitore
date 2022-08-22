@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="row">
+            <div class="column">
+                <strong>Quantità</strong>
+            </div>
+            <div class="column">
+                <strong>1° valuta</strong>
+            </div>
+            <div class="column">
+                <strong>2° valuta</strong>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <input type="number" name="number" id="p_valuta" min="0">
+            </div>
+
+            <div class="column">
+                <select name="valuta" id="valuta_uno">
+                    <option value=""></option>
+                    <option value="euro">euro</option>
+                    <option value="lek">lek</option>
+                </select>
+            </div>
+
+            <div class="column">
+                <select name="valuta" id="valuta_due">
+                    <option value=""></option>
+                    <option value="euro">euro</option>
+                    <option value="lek">lek</option>
+                </select>
+            </div>
+        </div>
+       
+        <button id="converti">Converti</button>
+
+        <h1 id="risultato"></h1>
+    </div>
+</body>
+</html>
